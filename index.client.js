@@ -25,3 +25,4 @@ function ClientSuspense(props) {
 
 module.exports = ClientSuspense;
 module.exports.default = ClientSuspense;
+module.exports.ClientSuspense = ClientSuspense;
