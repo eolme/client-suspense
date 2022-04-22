@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES3",
+    "module": "CommonJS",
+    "lib": [
+      "DOM"
+    ],
+    "moduleResolution": "Node",
+    "allowUmdGlobalAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "noEmit": true,
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

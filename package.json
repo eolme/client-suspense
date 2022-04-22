@@ -1,0 +1,52 @@
+{
+  "name": "client-suspense",
+  "version": "1.0.0",
+  "main": "./index.client.js",
+  "types": "./index.client.d.ts",
+  "exports": {
+    "node": "./index.client.js",
+    "require": "./index.client.js",
+    "default": "./index.client.js",
+    "types": "./index.client.d.ts"
+  },
+  "author": {
+    "name": "Anton Petrov",
+    "email": "im@petrov.engineer",
+    "url": "https://petrov.engineer"
+  },
+  "description": "ClientSuspense component (client-only Suspense)",
+  "license": "MIT",
+  "keywords": [
+    "client",
+    "suspense",
+    "concurrent",
+    "concurrent-mode",
+    "react",
+    "reactjs",
+    "next",
+    "nextjs"
+  ],
+  "homepage": "https://github.com/eolme/client-suspense",
+  "bugs": "https://github.com/eolme/client-suspense/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eolme/client-suspense.git"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@mntm/eslint-config": "^1.1.2",
+    "@types/react": "^18.0.6",
+    "eslint": "^8.13.0",
+    "nanobundle": "^0.0.27",
+    "react": "^18.0.0",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    }
+  }
+}

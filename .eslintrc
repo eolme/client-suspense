@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": "@mntm",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "."
+  },
+  "rules": {
+    "no-var": 0,
+    "prefer-const": 0,
+    "func-style": 0,
+    "react/no-children-prop": 0,
+    "react/destructuring-assignment": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/no-require-imports": 0
+  }
+}
