@@ -6,7 +6,7 @@ var React = require('react');
  * @param {Object} props ClientSuspense props
  * @param {React.ReactNode | undefined} [props.fallback]
  * @param {React.ReactNode | undefined} [props.children]
- * @returns {React.ReactElement | null}
+ * @returns {React.ReactElement}
  */
 function ClientSuspense(props) {
   var state = React.useState(false);
